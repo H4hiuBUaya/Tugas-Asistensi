@@ -27,9 +27,9 @@
     char inisial_food = fav_food[0];
     int ascii_food;
     if (inisial_food >= 'a' && inisial_food <= 'z') {
-        ascii_food = (inisial_food - 32) + inisial_food; // Ubah ke kapital + asli
+        ascii_food = (inisial_food - 32) + inisial_food^2; // Ubah ke kapital + asli
     } else if (inisial_food >= 'A' && inisial_food <= 'Z') {
-        ascii_food = (inisial_food + 32) + inisial_food; // ubah ke non-kapital + asli
+        ascii_food = (inisial_food + 32) + inisial_food^2; // ubah ke non-kapital + asli
     } else {
         ascii_food = inisial_food * 2;
     }
