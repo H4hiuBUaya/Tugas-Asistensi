@@ -52,4 +52,4 @@
     printf("| Minuman Favorit: %-15s |\n", fav_drink);
     printf("-----------------------------------\n");
     return 0;
-}
+    }
