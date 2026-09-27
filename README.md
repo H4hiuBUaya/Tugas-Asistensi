@@ -52,6 +52,7 @@
     return 0;
     }
 Hasil Running Program :
-<img width="283" height="201" alt="image" src="https://github.com/user-attachments/assets/4a1c8317-d377-46fc-914e-13a4d4050cc1" />
+<img width="275" height="201" alt="image" src="https://github.com/user-attachments/assets/063c7a5e-f1b6-4dd5-98ec-6e7d8aa6ac26" />
+
 
 
