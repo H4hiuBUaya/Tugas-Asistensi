@@ -21,13 +21,9 @@
    //ID Generator
    
     char inisial_nama = nama[0];
-   
     int op_matematika1 = 2026 - umur;
-    
     char inisial_drink = fav_drink[0];
-   
     int ascii_drink;
-    
     if (inisial_drink >= 'a' && inisial_drink <= 'z') {
         ascii_drink = (inisial_drink - 32) + inisial_drink; // Ubah ke kapital + asli
     } else if (inisial_drink >= 'A' && inisial_drink <= 'Z') {
@@ -53,3 +49,6 @@
     printf("-----------------------------------\n");
     return 0;
     }
+Hasil Running Program :
+<img width="276" height="183" alt="image" src="https://github.com/user-attachments/assets/c91024a8-072b-49f8-af45-11285b324a54" />
+
